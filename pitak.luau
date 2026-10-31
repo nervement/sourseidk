@@ -1,3 +1,7 @@
+print("saved by nervement")
+
+print("https://discord.gg/C6XJdUA3r")
+
 local sources = {}
 sources["Library"] = "local requireModule = ...\
 local cloneref = (cloneref or clonereference or function(instance: any)\
@@ -44724,5 +44728,3 @@ end\
 return result\
 "
 local run, message = loadstring(sources.Bootstrap, "@Pitak/Bootstrap"); assert(run, message); return run(sources)
-
-print("saved by nervement")
